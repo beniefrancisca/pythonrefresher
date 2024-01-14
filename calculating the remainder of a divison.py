@@ -19,3 +19,9 @@ print(remainder)
 x = 37 #calculate if odd or even
 remainder = x % 2
 print(remainder)
+
+a = 17.5
+b = 5
+x = a + b - 9
+
+print(a+b - 9)

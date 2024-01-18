@@ -30,3 +30,24 @@ print(friends[0]["name"])
 friends = [("Rolf", 24), ("Adam", 30), ("Anne", 27)]
 firend_ages = dict(friends)
 print(friend_ages)
+
+my_friends = {
+    'Jose': {'last_seen': 6},
+    'Rolf': {'surname': 'Smith'},
+    'Anne': 6
+}
+
+print(my_friends['Jose']['last_seen'])
+
+players = [
+    {
+        'name': 'Rolf',
+        'numbers': (13, 22, 3, 6, 9)
+    },
+    {
+        'name': 'John',
+        'numbers': (22, 3, 5, 7, 9)
+    }
+]
+print(players[0]['numbers'])
+print(players[0]['numbers'][0])
